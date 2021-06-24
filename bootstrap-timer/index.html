@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script defer src="js/main.js"></script>
+	<title>Fun with Timers</title>
+</head>
+<body>
+	<h2>Fun with Timers</h2>
+	<h1 id="timer">0:00</h1>
+	Seconds
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id='seconds' role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+	</div>
+	<br>
+	Minutes
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" id='minutes' role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+	</div>
+	<br>
+	Hours
+	<div class="progress">
+		<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" id='hours' role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+	</div>
+	<br><br>
+	<button id="startButton" class="btn btn-success">Start</button><br>
+	<button id="resetButton" class="btn btn-danger">Reset</button>
+</body>
+</html>
