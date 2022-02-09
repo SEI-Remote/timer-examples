@@ -1,6 +1,0 @@
-const timerEl = document.getElementById('timer')
-const resetBtn = document.getElementById('resetButton')
-const startBtn = document.getElementById('startButton')
-const secBar = document.getElementById('seconds')
-const minBar = document.getElementById('minutes')
-const hrBar = document.getElementById('hours')
