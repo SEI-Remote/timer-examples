@@ -1,3 +1,17 @@
+body {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+	background-color: darkseagreen;
+	height: 25vmax;
+	color: black;
+}
+
+.btn {
+	border: 1px solid black;
+}
+
 h2 {
-	font-size: 72px;
+	font-size: 50px;
 }
